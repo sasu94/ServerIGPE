@@ -1,0 +1,13 @@
+assembly line 1
+4 1
+pa -> [p1 pc]
+pb -> []
+pc -> [p1]
+p1 -> [pb]
+assembly line 2
+4 2
+q -> [x]
+c -> [x]
+x -> []
+d -> [c q]
+-1
